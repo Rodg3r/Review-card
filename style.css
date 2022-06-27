@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 16px 'Open Sans', sans-serif;
+    background-color: rgb(237, 237, 237);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.underline{
+    margin-top: 5px;
+    height: 5px;
+    width: 70px;
+    background:black;
+    border-radius: 5px;
+}
+
+.review-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+    gap: 10px;
+    max-width: 620px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+button{
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    border:solid 2px black;
+}
+
+.random-button{
+    font-size: 16px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+}
